@@ -1,17 +1,4 @@
 package com.net;
-/**
- * @(#) TcpUtil.java
- * Copyright 1999 by  Java Service Network Community, KOREA.
- * All rights reserved.  http://www.javaservice.net
- * 
- * NOTICE !      You can copy or redistribute this code freely, 
- * but you should not remove the information about the copyright notice 
- * and the author.
- * 
- * @author  WonYoung Lee, lwy@javaservice.com
- */
-
-
 
 import java.io.*;
 
@@ -97,15 +84,6 @@ public class TcpUtil
 		}
 	}
 	
-	/**
-	 * The <code>read_data</code> method of <code>SocketUtil</code> reads all
-	 * the bytes from the given inputstream until the given input stream has not
-	 * returned an EOF(end-of-stream) indicator.
-	 * 
-	 * @param in an inputstream
-	 * @return all bytes read if the end of the stream is reached.
-	 * @exception Exception if an I/O error occurs
-	 */
 	public static byte[] getLimitRadData(InputStream in) throws Exception {
 		java.io.ByteArrayOutputStream bout = new java.io.ByteArrayOutputStream();
 		int bcount = 0;
