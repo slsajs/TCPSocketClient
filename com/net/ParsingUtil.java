@@ -1,28 +1,8 @@
-/**
- Title		: NACF
- Copyright	: Copyright(c)2001
- Author		: 조현철
- Company		: (주)futuregroup
- Created on 	: 2001.10.10
- Description	: ParsingUtil.java
-  각종 문자 parsing관련 Method들...
- =======================================================================
- 수정 내역
- NO         날자        작업자            내용
- =======================================================================
- */
+
 package com.net;
 
 import java.util.StringTokenizer;
 
-/**
- * <pre>
- * 각종 문자 parsing관련 Method들...
- * update history
- * @since 2001/09
- * @author 조현철
- *</pre>
- */
 public class ParsingUtil {
 	/**
 	 * 하나의 긴 String을 주어진 integer array의 순서대로 tokenize
