@@ -1,16 +1,5 @@
 package com.net;
 
-
-/**
- * @(#) ByteUtil.java Copyright 1999 by Java Service Network Community, KOREA.
- *      All rights reserved. http://www.javaservice.net
- * 
- *      NOTICE ! You can copy or redistribute this code freely, but you should
- *      not remove the information about the copyright notice and the author.
- * 
- * @author WonYoung Lee, lwy@javaservice.com
- */
-
 public class ByteUtil {
 
 	private ByteUtil() {
